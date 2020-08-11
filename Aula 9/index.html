@@ -1,0 +1,70 @@
+<html>
+
+  <head>
+	<meta charset="utf-8"/>
+	<html lang="pt-BR">
+	<title>Quarentena Dev - Aula 9</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+	<script type="text/javascript" src="script.js"></script>
+  </head>
+
+<body>
+  <div id="quarentenaDev">#QUARENTENADEV</div>
+  <div id="desafio">
+    <h1>Aula 9: Inputs e retorno de funções</h1>
+    <h2>Desafios</h2>
+    <span id="balas"></span>
+    <p> Aprender sobre os tipos de input
+      <br />Trocar o prompt que estavamos utilizando para pegar dados do usuário pelo input (fiz outro separado): </p>
+    <hr />
+
+      <label for="nome">Nome:  </label>
+      <input type="text" id="nome" name="nome">
+      <br />
+	  
+	  <label for="email">E-mail: </label>
+      <input type="email" id="email" name="email">
+      <br />
+	  
+      <label for="senha">Senha:  </label>
+      <input type="password" id="senha" name="senha">
+      <br />
+	  
+      <label for="dataNascimento">Data de nascimento: </label>
+      <input type="date" id="dataNascimento" name="dataNascimento">
+      <br />
+	  
+      <label for="peso">Peso:   </label>
+      <input type="number" id="peso" name="peso">
+      <br />
+	  
+      <label for="altura">Altura: </label>
+      <input type="number" id="altura" name="altura" placeholder="1.5" step="0.05" min="1" max="3">
+      <br />
+        
+      <button onclick="atualizarDados()">Atualizar dados</button>
+
+    <br/><br/>
+    <span><strong>Dados Cadastrados: </strong></span>
+    <br/>
+    <span id="nomeExibicao"></span> 
+    <br/>
+    <span id="emailExibicao"></span>
+    <br/>
+    <span id="senhaExibicao"></span>
+    <br/>
+    <span id="dataNascimentoExibicao"></span>
+    <br/>
+    <span id="alturaExibicao"></span>
+    <br/>
+    <span id="pesoExibicao"></span>
+    <br/>
+    <span id="generoExibicao"></span>
+    <br/><br/>
+
+  </div>
+
+  <div id="quarentenaDev">#QUARENTENADEV: Aprenda a Programar</div>
+</body>
+
+</html>

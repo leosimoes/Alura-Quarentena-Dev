@@ -1,0 +1,22 @@
+#quarentenaDev{
+  background-color: #4169E1;
+color: #FFFFFF;
+padding-left: 80px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+#desafio{
+  padding: 50px;
+  padding-right: 400px;
+  padding-left: 400px;
+}
+
+#hljs{
+  display: block;
+overflow-x: auto;
+padding: .5em;
+color: #383a42;
+background: #fafafa;
+
+}
